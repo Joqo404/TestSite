@@ -1,1 +1,1 @@
-//scriptttt
+//script
