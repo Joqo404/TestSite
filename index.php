@@ -11,14 +11,19 @@
     <link href="https://fonts.googleapis.com/css2?family=Mulish&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "TittleImg">
-        <img src="image\Logo.png" id="Logo">
-        <img src="image\Illustration.png" id="Illustration">
-    </div>
-    <div class = "Singin">
-        <div><p>Email</p><input type="text" name="login"></div>
-        <div><p>Password</p><input type="password" name="password"></div>
-        <div><button> Sing in</button></div>
+    <div class = "Main">
+        <div class = "TittleImg">
+            <img src="image\Logo.png" id="Logo">
+            <img src="image\Illustration.png" id="Illustration">
+        </div>
+        <div class = "Singin">
+            <h2> Sign In </h2>
+            <div> <p> Email </p> <input type="text" name="login"> </div>
+            <div> <p> Password </p> <input type="password" name="password"> </div>
+            <div > <button class = "buttonSignIn"> Sing in </button> </div>
+
+        </div>
+
     </div>
 </body>
 </html>

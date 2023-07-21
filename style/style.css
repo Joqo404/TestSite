@@ -2,6 +2,19 @@
 	
 }
 .Singin{
+
+}
+.buttonSignIn{
+	background-color: #5541D7;
+	color: white;
+}
+.Main{
+	display: flex;
+	flex-direction: row;
+	justify-content:space-around;
+}
+body {
 	font-weight: bold;
 	font-family: 'Mulish', sans-serif;
+
 }
