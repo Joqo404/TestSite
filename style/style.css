@@ -1,5 +1,8 @@
 #Logo{
-	
+	padding-left: 5%;
+}
+#Illustration{
+	padding-top: 5%;
 }
 .Singin{
 
@@ -8,11 +11,15 @@
 	background-color: #5541D7;
 	color: white;
 	font-family: 'Mulish', sans-serif;
+	
 }
 .Main{
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
+	align-items: center;
+ 
+  place-items: center;
 }
 body {
 	font-weight: bold;
