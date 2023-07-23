@@ -18,8 +18,8 @@
         </div>
         <div class = "Singin">
             <h2> Sign In </h2>
-            <div> <p> Email </p> <input type="text" name="login"> </div>
-            <div> <p> Password </p> <input type="password" name="password"> </div>
+            <div> <p> Email </p> <input type="text" name="login" placeholder="input your login"> </div>
+            <div> <p> Password </p> <input type="password" name="password" placeholder="input your password"> </div>
             <div > <button class = "buttonSignIn"> Sing in </button> </div>
 
         </div>
