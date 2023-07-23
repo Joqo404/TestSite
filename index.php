@@ -12,14 +12,15 @@
 </head>
 <body>
     <div class = "Main">
-        <div class = "TittleImg">
+        <div class = "TittleImg unit-block-class" >
             <img src="image\Logo.png" id="Logo">
             <img src="image\Illustration.png" id="Illustration">
         </div>
-        <div class = "Singin">
+        <div class = "Singin unit-block-class">
             <h2> Sign In </h2>
             <div> <p> Email </p> <input type="text" name="login" placeholder="input your login"> </div>
             <div> <p> Password </p> <input type="password" name="password" placeholder="input your password"> </div>
+            <div class = "forgot_password"> <a href=""> forgot password ?</a></div>
             <div > <button class = "buttonSignIn"> Sing in </button> </div>
 
         </div>

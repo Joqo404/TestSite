@@ -1,3 +1,6 @@
+.TittleImg{
+	padding-top: 5%;
+}
 #Logo{
 	margin-bottom: 50%;
 }
@@ -5,24 +8,65 @@
 	padding-top: 5%;
 }
 .Singin{
-
+	margin-top: 3%;
 }
 .buttonSignIn{
-	background-color: #5541D7;
+	display: flex;
+	width: 400px;
+	height: 48px;
+	padding: 14px 24px;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	flex-shrink: 0; 
+	border-radius: 8px;
+	background: #5541D7;
 	color: white;
+	font-weight: bold;
 	font-family: 'Mulish', sans-serif;
-	
+	margin-top: 5%;
 }
+
 .Main{
 	display: flex;
 	flex-direction: row;
 	justify-content:space-around;
 	align-items: center;
- 
-  place-items: center;
+   place-items: center;
+   margin-top: 2%;
 }
+.forgot_password{
+	font-weight: lighter;
+	text-align: right; 
+}
+
 body {
 	font-weight: bold;
 	font-family: 'Mulish', sans-serif;
 
+}
+input{
+	border-radius: 8px;
+	border: 1px solid #5541D7;
+	background: #FFF; 
+	border-radius: 8px;
+	border: 1px solid #5541D7;
+	background: #FFF; 
+
+	align-items: center;
+	gap: 10px;
+	align-self: stretch; 
+	width: 400px;
+	height: 48px;
+	font-family: 'Mulish', sans-serif;
+}
+a {
+  color: #9A9AB0;
+  text-decoration: none
+}
+a:hover{
+	text-decoration: underline;
+}
+button:hover {
+  cursor: pointer;
 }
