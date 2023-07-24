@@ -7,6 +7,17 @@
 #Illustration{
 	padding-top: 5%;
 }
+#show-password-button{
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  position: absolute;
+  margin-top: 4.1%;
+  margin-left: 23%;
+
+}
 .Singin{
 	margin-top: 3%;
 }

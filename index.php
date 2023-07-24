@@ -19,12 +19,15 @@
         <div class = "Singin unit-block-class">
             <h2> Sign In </h2>
             <div> <p> Email </p> <input type="text" name="login" placeholder="input your login"> </div>
-            <div> <p> Password </p> <input type="password" name="password" placeholder="input your password"> </div>
+             <button id = "show-password-button" onclick="button_show_password()"><img src="image\eye-no.svg"></button>
+            <div> <p> Password </p> <input type="password" name="password" placeholder="input your password" id="input-password-place"> </div>
+
             <div class = "forgot_password"> <a href=""> forgot password ?</a></div>
             <div > <button class = "buttonSignIn"> Sing in </button> </div>
 
         </div>
-
     </div>
+    <script type="text/javascript" src="js/script.js">
+    </script>
 </body>
 </html>
