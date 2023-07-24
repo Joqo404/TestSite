@@ -15,7 +15,7 @@
                 <div id="sign-in-block">
                     <h4>Sign in</h4>
                     <p>Email</p>
-                    <input type="text" name="email-input" placeholder="input your email in here">
+                    <input type="email" name="email-input" placeholder="input your email in here">
                     <p>Password</p>
                     <input type="password" name="password" id="password-input" placeholder="input your password in here">
                     <button id="show-password-button" onclick="return show_hide_password(this);"><img src="images/eye-no.svg"></button>

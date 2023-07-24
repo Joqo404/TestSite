@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600&display=swap');
+
+a {
+  color: #000;
+  text-decoration: none
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  margin: 0;
+  font-family: 'Mulish', Arial, Helvetica, sans-serif;
+  background-color: #F2F5FA;
+}
+
+#header {
+  display: flex;
+  height: 60px;
+  background-color: #fff;
+  align-items: center;
+}
+
+#logo {
+  height: 45px;
+  margin-top: 7px;
+  margin-left: 10px;
+}
+
+.menu {
+  width: 256px;
+  height: 30px;
+  color: #254B77;
+  font-weight: 400;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+  flex: 1;
+  margin-left: 1.25rem;
+  border-radius: 0.3125rem; 
+}
+
+#left-button {
+  margin-left: 26.38rem;
+  background-color: #EBFAFA;
+}
+
+#right-button {
+  margin-right: 3.12rem;
+}
+
+#panel-button {
+  margin-right: 0.63rem;
+}
+
+#user-panel {
+  position: absolute;
+  width: 17.1875rem;
+  height: 15.25rem; 
+  margin-top: 18rem;
+  right: 0.63rem;
+  border-radius: 0.3125rem;
+  border: 1px solid #DFE6E9;
+  background-color: #fff;
+  box-shadow: -4px 4px 4px 0px rgba(0, 0, 0, 0.05);
+  display: none;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+}
+
+.panel-line {
+  width: 17.1875rem;
+  height: 0.0625rem; 
+  background: #DFE6E9; 
+  border: none;
+  position: absolute;
+}
+
+.user-panel-ref {
+  display: flex;
+  align-items: center;
+  padding-left: 1.06rem;
+  width: 14.75rem;
+  height: 2.375rem;
+  border-radius: 0.4375rem; 
+  font-family: Manrope;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 200% */
+  letter-spacing: 0.015rem; 
+  color: #2D3436;
+}
+
+#last-panel-button {
+  margin-bottom: 1.25rem;
+  margin-top: 2.56rem;
+}
+
+#first-panel-button {
+  margin-top: 1.25rem;
+  margin-top: 2.31rem;
+}
+
+#first-panel-line {
+  margin-top: 5.44rem;
+}
+
+#last-panel-line {
+  margin-top: 10.38rem;
+}
+
+#user-panel-content {
+  display: flex;
+  margin-top: 1.25rem;
+  margin-left: 1.31;
+  width: 14.75rem;
+}
+
+#user-panel-content > img {
+  width: 3.125rem; 
+}
+
+#panel-user-name {
+  margin-top: 0.56rem;
+  margin-left: 0.81rem;
+  font-family: Manrope;
+  font-size: 0.875rem;
+  font-weight: 600;
+  font-family: 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+#panel-user-status {
+  font-family: Manrope;
+  font-size: 0.625rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.875rem; /* 140% */
+  letter-spacing: 0.0125rem; 
+  color: #636E72;
+  margin-left: 0.81rem;
+}
